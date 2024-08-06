@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="relative">
+    <div
+      class="up fixed text-white p-2.5 text-3xl w-fit rounded-s-2xl bottom-3 right-0 cursor-pointer scale-0 transition-all duration-300 ease-in-out"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <div class="header">
+      <div class="con flex justify-between items-center px-10 py-5">
+        <div class="logo">
+          <a href="#" class="text-4xl hover:cursor-default uppercase italic"
+            >Mo</a
+          >
+        </div>
+        <div class="links flex items-center">
+          <ul class="flex gap-10">
+            <li>
+              <a
+                href=""
+                class="relative active text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >Shop</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="toggle hidden">
+          <i class="fa-solid fa-bars text-4xl cursor-pointer"></i>
+        </div>
+      </div>
+    </div>
+    <div class="landing">
+      <div class="con relative flex justify-between items-center px-10 py-5">
+        <div class="text w-1/2">
+          <h3 class="text-5xl leading-relaxed">Trade-in-offer</h3>
+          <h2 class="text-6xl">
+            Super value deals <span> On all products</span>
+          </h2>
+          <button
+            class="leading-relaxed text-3xl font-black px-2.5 py-0 mt-2.5 text-center rounded-2xl bg-no-repeat bg-transparent"
+          >
+            Shop now
+          </button>
+        </div>
+        <div class="img">
+          <img src="img/1.png" alt="landing image" class="w-96 h-96" />
+        </div>
+      </div>
+    </div>
+    <div class="featured py-24">
+      <div class="title flex items-center justify-center flex-col">
+        <h1 class="text-6xl font-bold">Featured Products</h1>
+        <p class="text-4xl opacity-30">Collections of new modern designs</p>
+      </div>
+      <div class="con relative px-10 py-5">
+        <div class="cards grid grid-cols-4 gap-5 place-items-center">
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img src="img/1.png" alt="product image" class="w-40 self-center" />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img src="img/2.png" alt="product image" class="w-40 self-center" />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img src="img/3.png" alt="product image" class="w-40 self-center" />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img src="img/4.png" alt="product image" class="w-40 self-center" />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img src="img/5.png" alt="product image" class="w-40 self-center" />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img src="img/6.png" alt="product image" class="w-40 self-center" />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="newarr py-24">
+      <div class="title flex items-center justify-center flex-col">
+        <h1 class="text-6xl font-bold">New Arrivals</h1>
+        <p class="text-4xl opacity-30">Collections of new modern designs</p>
+      </div>
+      <div class="con relative px-10 py-5">
+        <div class="cards grid grid-cols-4 gap-5 place-items-center">
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img src="img/7.png" alt="product image" class="w-40 self-center" />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img src="img/8.png" alt="product image" class="w-40 self-center" />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img src="img/9.png" alt="product image" class="w-40 self-center" />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img
+              src="img/10.png"
+              alt="product image"
+              class="w-40 self-center"
+            />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img
+              src="img/11.png"
+              alt="product image"
+              class="w-40 self-center"
+            />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <div class="card flex flex-col p-5 rounded-2xl w-fit">
+            <img
+              src="img/12.png"
+              alt="product image"
+              class="w-40 self-center"
+            />
+            <p class="opacity-30 text-3xl leading-relaxed">Armani</p>
+            <h2 class="text-4xl">Men's pillow sunglasses</h2>
+            <div class="star my-5 flex">
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star text-orange-400 pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+              <i class="fas fa-star pr-2"></i>
+            </div>
+            <div class="price flex items-center justify-between">
+              <h4 class="text-3xl">$50</h4>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-cart-shopping text-3xl leading-relaxed"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="signup">
+      <div class="con relative flex justify-between items-center px-10 py-5">
+        <div class="text">
+          <h2 class="text-7xl text-white leading-relaxed">
+            Sign Up for newsletter
+          </h2>
+          <p class="text-4xl text-white">
+            Get E-mail updates about our latest shop and
+            <span>special offers</span>
+          </p>
+        </div>
+        <div class="input">
+          <input
+            type="email"
+            placeholder="Your email address"
+            class="py-4 px-8 text-2xl rounded-2xl"
+          />
+          <input
+            type="button"
+            value="SIGN UP"
+            class="text-white p-4 text-2xl rounded-2xl mt-2.5"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="con flex px-10 py-5 flex-wrap w-full">
+        <div class="links w-1/3">
+          <a href="#" class="text-5xl hover:cursor-default uppercase italic"
+            >Mo</a
+          >
+          <ul class="flex gap-5 flex-col mt-5">
+            <li class="w-fit">
+              <a
+                href=""
+                class="relative text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >Home</a
+              >
+            </li>
+            <li class="w-fit">
+              <a
+                href=""
+                class="relative text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >Shop</a
+              >
+            </li>
+            <li class="w-fit">
+              <a
+                href=""
+                class="relative text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >About</a
+              >
+            </li>
+            <li class="w-fit">
+              <a
+                href=""
+                class="relative text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="follow w-1/3">
+          <h1 class="text-5xl mb-2">Contact &amp; Follow</h1>
+          <p class="text-xl font-bold">
+            <span class="text-4xl">Phone:</span> 01050102929
+          </p>
+          <p class="text-xl font-bold">
+            <span class="text-4xl">Address:</span> Shibin El-Qanater, Benha
+          </p>
+          <div class="icon my-5">
+            <a
+              href="https://www.facebook.com/neyamrx3"
+              class="fb cursor-pointer mr-2"
+              target="_blank"
+              ><i
+                class="fa-brands fa-facebook-f text-3xl text-center w-10 leading-10 text-white"
+              ></i
+            ></a>
+            <a
+              href="https://twitter.com/175_moo"
+              class="twitter cursor-pointer mr-2"
+              target="_blank"
+              ><i
+                class="fa-brands fa-twitter text-3xl text-center w-10 leading-10 text-white"
+              ></i
+            ></a>
+            <a
+              href="https://www.instagram.com/mohamed.tarek.15/"
+              class="insta cursor-pointer mr-2"
+              target="_blank"
+              ><i
+                class="fa-brands fa-instagram text-3xl text-center w-10 leading-10 text-white"
+              ></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/mohamed-tarek-839925168/"
+              class="linkedin cursor-pointer"
+              target="_blank"
+              ><i
+                class="fa-brands fa-linkedin-in text-3xl text-center w-10 leading-10 text-white"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div class="any w-1/3">
+          <h1 class="text-5xl">About</h1>
+          <ul class="flex gap-5 flex-col mt-5">
+            <li>
+              <a
+                href=""
+                class="relative text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >Help</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >Terms &amp; Conditions</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="relative text-4xl before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:transition-all before:ease-in-out before:duration-300 hover:before:w-full"
+                >Delivery Information</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright w-full text-center bg-no-repeat p-5">
+      <p class="text-white text-4xl leading-tight">
+        The website Designed by <br />
+        MO &copy; 2024
+      </p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
